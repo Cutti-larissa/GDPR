@@ -1,0 +1,78 @@
+2025-11-09 19:56:08,687 - INFO - Iniciando experimento no ambiente: cpu
+2025-11-09 19:56:08,687 - INFO - Classes: ['n_person', 'person']
+2025-11-09 19:56:09,104 - INFO - Modelo = AlexNet
+2025-11-09 19:56:09,104 - INFO - Épocas = 100
+2025-11-09 19:56:09,104 - INFO - Batch = 32
+2025-11-09 19:56:09,104 - INFO - Paciência = 5
+2025-11-09 19:56:09,104 - INFO - Dados de treino = /home/larissa/IC/DL/Experimentos/Ex1/Class/Person/Coco2/Uncensored/train
+2025-11-09 19:56:09,104 - INFO - Dados de validação = /home/larissa/IC/DL/Experimentos/Ex1/Class/Person/Coco2/Uncensored/val
+2025-11-09 19:56:09,104 - INFO - Dados de teste = /home/larissa/IC/DL/Experimentos/Ex1/Class/Person/Coco2/Uncensored/test
+2025-11-09 19:56:09,104 - INFO - lr opt = 0.0001
+2025-11-09 19:56:09,104 - INFO - Modelo configurado
+2025-11-09 19:56:09,212 - INFO - Iniciando treinamento Coco_AlexNet_Uncensored_20251109_1956
+2025-11-10 08:02:55,845 - INFO - Early stopping at 12
+2025-11-10 08:02:55,875 - INFO - Avaliando no conjunto de teste!
+2025-11-10 08:03:48,936 - INFO - -----------------MÉTRICAS--------------------------
+2025-11-10 08:03:48,936 - INFO - Test Acc: 0.8805
+2025-11-10 08:03:48,936 - INFO - Precision = 0.9209
+2025-11-10 08:03:48,936 - INFO - Recall = 0.8751
+2025-11-10 08:03:48,936 - INFO - F1 = 0.8974
+2025-11-10 08:03:48,936 - INFO - ---------------------------------------------------
+2025-11-10 08:03:48,936 - INFO - corretos = 7021.00, tamanho dos dados = 7974.00
+2025-11-10 08:03:48,936 - INFO - TN = 2853.00
+2025-11-10 08:03:48,936 - INFO - FN = 595.00
+2025-11-10 08:03:48,936 - INFO - TP = 4168.00
+2025-11-10 08:03:48,936 - INFO - FP = 358.00
+2025-11-10 08:03:48,936 - INFO - ==================================================
+2025-11-10 08:03:49,052 - INFO - Iniciando experimento no ambiente: cpu
+2025-11-10 08:03:49,052 - INFO - Classes: ['n_person', 'person']
+2025-11-10 08:03:49,232 - INFO - Modelo = AlexNet
+2025-11-10 08:03:49,232 - INFO - Épocas = 100
+2025-11-10 08:03:49,232 - INFO - Batch = 32
+2025-11-10 08:03:49,232 - INFO - Paciência = 5
+2025-11-10 08:03:49,232 - INFO - Dados de treino = /home/larissa/IC/DL/Experimentos/Ex1/Class/Person/Coco2/BBox/train
+2025-11-10 08:03:49,232 - INFO - Dados de validação = /home/larissa/IC/DL/Experimentos/Ex1/Class/Person/Coco2/BBox/val
+2025-11-10 08:03:49,232 - INFO - Dados de teste = /home/larissa/IC/DL/Experimentos/Ex1/Class/Person/Coco2/Uncensored/test
+2025-11-10 08:03:49,232 - INFO - lr opt = 0.0001
+2025-11-10 08:03:49,232 - INFO - Modelo configurado
+2025-11-10 08:03:49,253 - INFO - Iniciando treinamento Coco_AlexNet_BBox_20251110_0803
+2025-11-10 14:40:47,069 - INFO - Early stopping at 14
+2025-11-10 14:40:47,106 - INFO - Avaliando no conjunto de teste!
+2025-11-10 14:41:53,860 - INFO - -----------------MÉTRICAS--------------------------
+2025-11-10 14:41:53,860 - INFO - Test Acc: 0.4053
+2025-11-10 14:41:53,860 - INFO - Precision = 0.8387
+2025-11-10 14:41:53,860 - INFO - Recall = 0.0055
+2025-11-10 14:41:53,860 - INFO - F1 = 0.0108
+2025-11-10 14:41:53,860 - INFO - ---------------------------------------------------
+2025-11-10 14:41:53,860 - INFO - corretos = 3232.00, tamanho dos dados = 7974.00
+2025-11-10 14:41:53,860 - INFO - TN = 3206.00
+2025-11-10 14:41:53,860 - INFO - FN = 4737.00
+2025-11-10 14:41:53,860 - INFO - TP = 26.00
+2025-11-10 14:41:53,860 - INFO - FP = 5.00
+2025-11-10 14:41:53,860 - INFO - ==================================================
+2025-11-10 14:41:53,976 - INFO - Iniciando experimento no ambiente: cpu
+2025-11-10 14:41:53,976 - INFO - Classes: ['n_person', 'person']
+2025-11-10 14:41:54,139 - INFO - Modelo = AlexNet
+2025-11-10 14:41:54,139 - INFO - Épocas = 100
+2025-11-10 14:41:54,139 - INFO - Batch = 32
+2025-11-10 14:41:54,139 - INFO - Paciência = 5
+2025-11-10 14:41:54,139 - INFO - Dados de treino = /home/larissa/IC/DL/Experimentos/Ex1/Class/Person/Coco2/Blur/train
+2025-11-10 14:41:54,139 - INFO - Dados de validação = /home/larissa/IC/DL/Experimentos/Ex1/Class/Person/Coco2/Blur/val
+2025-11-10 14:41:54,139 - INFO - Dados de teste = /home/larissa/IC/DL/Experimentos/Ex1/Class/Person/Coco2/Uncensored/test
+2025-11-10 14:41:54,139 - INFO - lr opt = 0.0001
+2025-11-10 14:41:54,139 - INFO - Modelo configurado
+2025-11-10 14:41:54,160 - INFO - Iniciando treinamento Coco_AlexNet_Blur_20251110_1441
+2025-11-10 18:06:15,948 - INFO - Early stopping at 10
+2025-11-10 18:06:15,976 - INFO - Avaliando no conjunto de teste!
+2025-11-10 18:07:05,332 - INFO - -----------------MÉTRICAS--------------------------
+2025-11-10 18:07:05,332 - INFO - Test Acc: 0.4585
+2025-11-10 18:07:05,332 - INFO - Precision = 0.8011
+2025-11-10 18:07:05,332 - INFO - Recall = 0.1243
+2025-11-10 18:07:05,332 - INFO - F1 = 0.2152
+2025-11-10 18:07:05,332 - INFO - ---------------------------------------------------
+2025-11-10 18:07:05,332 - INFO - corretos = 3656.00, tamanho dos dados = 7974.00
+2025-11-10 18:07:05,332 - INFO - TN = 3064.00
+2025-11-10 18:07:05,332 - INFO - FN = 4171.00
+2025-11-10 18:07:05,332 - INFO - TP = 592.00
+2025-11-10 18:07:05,332 - INFO - FP = 147.00
+2025-11-10 18:07:05,332 - INFO - ==================================================

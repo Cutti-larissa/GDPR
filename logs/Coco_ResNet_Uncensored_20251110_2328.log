@@ -1,0 +1,81 @@
+2025-11-10 23:28:35,222 - INFO - Iniciando experimento no ambiente: cpu
+2025-11-10 23:28:35,222 - INFO - Classes: ['n_person', 'person']
+2025-11-10 23:28:35,222 - INFO - seed = 48
+2025-11-10 23:28:35,400 - INFO - Modelo = ResNet18
+2025-11-10 23:28:35,400 - INFO - Épocas = 100
+2025-11-10 23:28:35,400 - INFO - Batch = 8
+2025-11-10 23:28:35,400 - INFO - Paciência = 5
+2025-11-10 23:28:35,400 - INFO - Dados de treino = Coco2/Uncensored/train
+2025-11-10 23:28:35,400 - INFO - Dados de validação = Coco2/Uncensored/val
+2025-11-10 23:28:35,400 - INFO - Dados de teste = Coco2/Uncensored/test
+2025-11-10 23:28:35,400 - INFO - lr opt = 0.0001
+2025-11-10 23:28:35,400 - INFO - Modelo configurado
+2025-11-10 23:28:35,431 - INFO - Iniciando treinamento Coco_ResNet_Uncensored_20251110_2328
+2025-11-11 16:29:54,460 - INFO - Early stopping at 10
+2025-11-11 16:29:54,776 - INFO - Avaliando no conjunto de teste!
+2025-11-11 16:35:43,225 - INFO - -----------------MÉTRICAS--------------------------
+2025-11-11 16:35:43,226 - INFO - Test Acc: 0.9215
+2025-11-11 16:35:43,226 - INFO - Precision = 0.9624
+2025-11-11 16:35:43,226 - INFO - Recall = 0.9038
+2025-11-11 16:35:43,227 - INFO - F1 = 0.9322
+2025-11-11 16:35:43,227 - INFO - ---------------------------------------------------
+2025-11-11 16:35:43,227 - INFO - corretos = 7348.00, tamanho dos dados = 7974.00
+2025-11-11 16:35:43,228 - INFO - TN = 3043.00
+2025-11-11 16:35:43,228 - INFO - FN = 458.00
+2025-11-11 16:35:43,228 - INFO - TP = 4305.00
+2025-11-11 16:35:43,228 - INFO - FP = 168.00
+2025-11-11 16:35:43,228 - INFO - ==================================================
+2025-11-12 07:10:42,233 - INFO - Iniciando experimento no ambiente: cpu
+2025-11-12 07:10:42,234 - INFO - Classes: ['n_person', 'person']
+2025-11-12 07:10:42,234 - INFO - seed = 48
+2025-11-12 07:10:42,464 - INFO - Modelo = ResNet18
+2025-11-12 07:10:42,464 - INFO - Épocas = 100
+2025-11-12 07:10:42,464 - INFO - Batch = 8
+2025-11-12 07:10:42,464 - INFO - Paciência = 5
+2025-11-12 07:10:42,465 - INFO - Dados de treino = Coco2/BBox/train
+2025-11-12 07:10:42,465 - INFO - Dados de validação = Coco2/BBox/val
+2025-11-12 07:10:42,465 - INFO - Dados de teste = Coco2/Uncensored/test
+2025-11-12 07:10:42,465 - INFO - lr opt = 0.0001
+2025-11-12 07:10:42,465 - INFO - Modelo configurado
+2025-11-12 10:10:42,633 - INFO - Iniciando treinamento Coco_ResNet_BBox_20251112_0710
+2025-11-13 10:48:33,559 - INFO - Early stopping at 13
+2025-11-13 10:48:34,114 - INFO - Avaliando no conjunto de teste!
+2025-11-13 10:55:46,708 - INFO - -----------------MÉTRICAS--------------------------
+2025-11-13 10:55:46,709 - INFO - Test Acc: 0.4043
+2025-11-13 10:55:46,709 - INFO - Precision = 0.6275
+2025-11-13 10:55:46,709 - INFO - Recall = 0.0067
+2025-11-13 10:55:46,710 - INFO - F1 = 0.0133
+2025-11-13 10:55:46,710 - INFO - ---------------------------------------------------
+2025-11-13 10:55:46,711 - INFO - corretos = 3224.00, tamanho dos dados = 7974.00
+2025-11-13 10:55:46,711 - INFO - TN = 3192.00
+2025-11-13 10:55:46,711 - INFO - FN = 4731.00
+2025-11-13 10:55:46,711 - INFO - TP = 32.00
+2025-11-13 10:55:46,712 - INFO - FP = 19.00
+2025-11-13 10:55:46,712 - INFO - ==================================================
+2025-11-13 11:03:55,442 - INFO - Iniciando experimento no ambiente: cpu
+2025-11-13 11:03:55,442 - INFO - Classes: ['n_person', 'person']
+2025-11-13 11:03:55,442 - INFO - seed = 48
+2025-11-13 11:03:55,572 - INFO - Modelo = ResNet18
+2025-11-13 11:03:55,572 - INFO - Épocas = 100
+2025-11-13 11:03:55,572 - INFO - Batch = 8
+2025-11-13 11:03:55,572 - INFO - Paciência = 5
+2025-11-13 11:03:55,572 - INFO - Dados de treino = Coco2/Blur/train
+2025-11-13 11:03:55,572 - INFO - Dados de validação = Coco2/Blur/val
+2025-11-13 11:03:55,572 - INFO - Dados de teste = Coco2/Uncensored/test
+2025-11-13 11:03:55,572 - INFO - lr opt = 0.0001
+2025-11-13 11:03:55,572 - INFO - Modelo configurado
+2025-11-13 11:03:55,594 - INFO - Iniciando treinamento Coco_ResNet_Blur_20251113_1103
+2025-11-14 20:13:11,802 - INFO - Early stopping at 16
+2025-11-14 20:13:16,314 - INFO - Avaliando no conjunto de teste!
+2025-11-14 20:23:36,645 - INFO - -----------------MÉTRICAS--------------------------
+2025-11-14 20:23:36,646 - INFO - Test Acc: 0.4080
+2025-11-14 20:23:36,646 - INFO - Precision = 0.7386
+2025-11-14 20:23:36,646 - INFO - Recall = 0.0136
+2025-11-14 20:23:36,646 - INFO - F1 = 0.0268
+2025-11-14 20:23:36,646 - INFO - ---------------------------------------------------
+2025-11-14 20:23:36,647 - INFO - corretos = 3253.00, tamanho dos dados = 7974.00
+2025-11-14 20:23:36,647 - INFO - TN = 3188.00
+2025-11-14 20:23:36,647 - INFO - FN = 4698.00
+2025-11-14 20:23:36,647 - INFO - TP = 65.00
+2025-11-14 20:23:36,647 - INFO - FP = 23.00
+2025-11-14 20:23:36,647 - INFO - ==================================================

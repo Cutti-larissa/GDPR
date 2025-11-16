@@ -1,0 +1,73 @@
+Classes: ['n_person', 'person']
+seed = 84
+Modelo = ResNet18
+Épocas = 100
+Batch = 32
+Paciência = 5
+Dados de treino = /content/datasets/Uncensored/train
+Dados de validação = /content/datasets/Uncensored/val
+Dados de teste = /content/datasets/Uncensored/test
+lr opt = 0.0001
+Modelo configurado
+Iniciando treinamento Coco_ResNet_Uncensored_20251113_1700
+-----------------MÉTRICAS--------------------------
+Test Acc: 0.8853
+Precision = 0.9349
+Recall = 0.8684
+F1 = 0.9004
+---------------------------------------------------
+corretos = 7059.00, tamanho dos dados = 7974.00
+TN = 2923.00
+FN = 627.00
+TP = 4136.00
+FP = 288.00
+==================================================
+Conectado em um ambiente com cpu
+Classes: ['n_person', 'person']
+seed = 84
+Modelo = ResNet18
+Épocas = 100
+Batch = 32
+Paciência = 5
+Dados de treino = /content/datasets/BBox/train
+Dados de validação = /content/datasets/BBox/val
+Dados de teste = /content/datasets/BBox/test
+lr opt = 0.0001
+Modelo configurado
+Iniciando treinamento Coco_ResNet_BBox_20251113_1857
+-----------------MÉTRICAS--------------------------
+Test Acc: 0.4061
+Precision = 0.7872
+Recall = 0.0078
+F1 = 0.0154
+---------------------------------------------------
+corretos = 3238.00, tamanho dos dados = 7974.00
+TN = 3201.00
+FN = 4726.00
+TP = 37.00
+FP = 10.00
+==================================================
+Classes: ['n_person', 'person']
+seed = 84
+Modelo = ResNet18
+Épocas = 100
+Batch = 32
+Paciência = 5
+Dados de treino = /content/datasets/Blur/train
+Dados de validação = /content/datasets/Blur/val
+Dados de teste = /content/datasets/Blur/test
+lr opt = 0.0001
+Modelo configurado
+Iniciando treinamento Coco_ResNet_Blur_20251113_2139
+-----------------MÉTRICAS--------------------------
+Test Acc: 0.4120
+Precision = 0.8364
+Recall = 0.0193
+F1 = 0.0378
+---------------------------------------------------
+corretos = 3285.00, tamanho dos dados = 7974.00
+TN = 3193.00
+FN = 4671.00
+TP = 92.00
+FP = 18.00
+==================================================

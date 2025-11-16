@@ -1,0 +1,72 @@
+Classes: ['n_person', 'person']
+seed = 60
+Modelo = VGG16
+Épocas = 100
+Batch = 32
+Paciência = 5
+Dados de treino = /content/datasets/Uncensored/train
+Dados de validação = /content/datasets/Uncensored/val
+Dados de teste = /content/datasets/Uncensored/test
+lr opt = 0.0001
+Modelo configurado
+Iniciando treinamento Coco_VGG_Uncensored_20251114_0213
+-----------------MÉTRICAS--------------------------
+Test Acc: 0.9325
+Precision = 0.9548
+Recall = 0.9311
+F1 = 0.9428
+---------------------------------------------------
+corretos = 7436.00, tamanho dos dados = 7974.00
+TN = 3001.00
+FN = 328.00
+TP = 4435.00
+FP = 210.00
+==================================================
+Classes: ['n_person', 'person']
+seed = 60
+Modelo = VGG16
+Épocas = 100
+Batch = 32
+Paciência = 5
+Dados de treino = /content/datasets/BBox/train
+Dados de validação = /content/datasets/BBox/val
+Dados de teste = /content/datasets/BBox/test
+lr opt = 0.0001
+Modelo configurado
+Iniciando treinamento Coco_VGG_BBox_20251115_0102
+-----------------MÉTRICAS--------------------------
+Test Acc: 0.4047
+Precision = 0.7857
+Recall = 0.0046
+F1 = 0.0092
+---------------------------------------------------
+corretos = 3227.00, tamanho dos dados = 7974.00
+TN = 3205.00
+FN = 4741.00
+TP = 22.00
+FP = 6.00
+==================================================
+Classes: ['n_person', 'person']
+seed = 60
+Modelo = VGG16
+Épocas = 100
+Batch = 32
+Paciência = 5
+Dados de treino = /content/datasets/Blur/train
+Dados de validação = /content/datasets/Blur/val
+Dados de teste = /content/datasets/Blur/test
+lr opt = 0.0001
+Modelo configurado
+Iniciando treinamento Coco_VGG_Blur_20251115_0115
+-----------------MÉTRICAS--------------------------
+Test Acc: 0.4123
+Precision = 0.6842
+Recall = 0.0300
+F1 = 0.0575
+---------------------------------------------------
+corretos = 3288.00, tamanho dos dados = 7974.00
+TN = 3145.00
+FN = 4620.00
+TP = 143.00
+FP = 66.00
+==================================================

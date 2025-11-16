@@ -1,0 +1,72 @@
+Classes: ['n_person', 'person']
+seed = 70
+Modelo = ResNet18
+Épocas = 100
+Batch = 32
+Paciência = 5
+Dados de treino = /content/datasets/Uncensored/train
+Dados de validação = /content/datasets/Uncensored/val
+Dados de teste = /content/datasets/Uncensored/test
+lr opt = 0.0001
+Modelo configurado
+Iniciando treinamento Coco_ResNet_Uncensored_20251113_1541
+-----------------MÉTRICAS--------------------------
+Test Acc: 0.9043
+Precision = 0.9460
+Recall = 0.8906
+F1 = 0.9175
+---------------------------------------------------
+corretos = 7211.00, tamanho dos dados = 7974.00
+TN = 2969.00
+FN = 521.00
+TP = 4242.00
+FP = 242.00
+==================================================
+Classes: ['n_person', 'person']
+seed = 70
+Modelo = ResNet18
+Épocas = 100
+Batch = 32
+Paciência = 5
+Dados de treino = /content/datasets/BBox/train
+Dados de validação = /content/datasets/BBox/val
+Dados de teste = /content/datasets/BBox/test
+lr opt = 0.0001
+Modelo configurado
+Iniciando treinamento Coco_ResNet_BBox_20251113_2109
+-----------------MÉTRICAS--------------------------
+Test Acc: 0.4043
+Precision = 0.8421
+Recall = 0.0034
+F1 = 0.0067
+---------------------------------------------------
+corretos = 3224.00, tamanho dos dados = 7974.00
+TN = 3208.00
+FN = 4747.00
+TP = 16.00
+FP = 3.00
+==================================================
+Classes: ['n_person', 'person']
+seed = 70
+Modelo = ResNet18
+Épocas = 100
+Batch = 32
+Paciência = 5
+Dados de treino = /content/datasets/Blur/train
+Dados de validação = /content/datasets/Blur/val
+Dados de teste = /content/datasets/Blur/test
+lr opt = 0.0001
+Modelo configurado
+Iniciando treinamento Coco_ResNet_Blur_20251113_2016
+-----------------MÉTRICAS--------------------------
+Test Acc: 0.4086
+Precision = 0.7901
+Recall = 0.0134
+F1 = 0.0264
+---------------------------------------------------
+corretos = 3258.00, tamanho dos dados = 7974.00
+TN = 3194.00
+FN = 4699.00
+TP = 64.00
+FP = 17.00
+==================================================
