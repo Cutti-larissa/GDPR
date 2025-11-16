@@ -7,6 +7,9 @@
 # 3. Black box censored (Only faces censored)
 
 # All variations tested on the unsensored dataset
+#
+# The codes used to complete this work were adapted 
+# from those seen during the course 'Tópicos em aprendizado de máquina'
 # ===========================================================================
 import os
 import math
